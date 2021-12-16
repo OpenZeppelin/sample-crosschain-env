@@ -1,0 +1,12 @@
+{
+  "name": "@openzeppelin/crosschain-env-optimism",
+  "author": "OpenZeppelin Community <maintainers@openzeppelin.org>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker-compose -f docker-compose.yml up -d ",
+    "stop": "docker-compose -f docker-compose.yml down",
+    "check": "node ../../utils/ready.js -e http://127.0.0.1",
+    "wait": "node ../../utils/ready.js -we http://127.0.0.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "@openzeppelin/crosschain-env",
+    "author": "OpenZeppelin Community <maintainers@openzeppelin.org>",
+    "version": "0.0.1",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OpenZeppelin/crosschain-env.git"
+    },
+    "workspaces": [
+        "chains/*"
+    ],
+    "scripts": {
+        "optimism:start": "npm run start -w chains/optimism",
+        "optimism:stop": "npm run stop -w chains/optimism",
+        "optimism:check": "npm run check -w chains/optimism",
+        "optimism:wait": "npm run wait -w chains/optimism"
+    },
+    "dependencies": {
+        "spinnies": "^0.5.1",
+        "yargs": "^17.3.0"
+    }
+}
