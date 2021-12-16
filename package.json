@@ -1,5 +1,6 @@
 {
     "name": "@openzeppelin/crosschain-env",
+    "description": "Test environments for crosschain operations",
     "author": "OpenZeppelin Community <maintainers@openzeppelin.org>",
     "version": "0.0.1",
     "license": "MIT",
